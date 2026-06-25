@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 	@RequestMapping("/")
 	public String home() {
-		return "CICD complete?";
+		return "젠킨스 대시보드 되나?";
 	}
 }
